@@ -1,7 +1,7 @@
 # Build My MiniBarRx
 This is a build my minibar Rx project which is built using React JS javascript library
 
-#Below are the steps to setup this react app in your local
+# Below are the steps to setup this react app in your local
 
 - Make sure Node is installed in your local machine.
 - clone the project into your local using git clone https://github.com/kukkunurimahesh/MiniBarRx.git
