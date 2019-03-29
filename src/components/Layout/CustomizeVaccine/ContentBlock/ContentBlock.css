@@ -1,0 +1,45 @@
+.Product {
+	width: 47px;
+    margin: 10px;
+    border: 1px solid;
+    height: 127px;
+    float: left;
+    text-align: center;
+}
+
+
+
+.p-cont-1 {
+	padding: 5px;
+}
+
+.customize-container {
+	width:100%;
+}
+.row2 {
+	width: 50%;
+	float: left;
+	height: 600px;
+}
+
+.droppable {
+	width: 45%;
+	border: 1px solid;
+	float: right;
+	height: 630px;
+	padding: 25px;
+}
+
+.catridge-items {
+	width: 80%;
+	height: auto;
+	float: right;
+}
+
+.item-count {
+	border: 1px solid;
+    padding: 5px;
+    background-color: #0b2e5c;
+    color: white;
+
+}

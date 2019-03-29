@@ -1,0 +1,42 @@
+{
+  "name": "minibarrx",
+  "version": "0.1.0",
+  "private": true,
+  "homepage" : "https://kukkunurimahesh.github.io/MiniBarRx/",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "css-loader": "^1.0.1",
+    "gh-pages": "^2.0.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-google-recaptcha": "^1.0.5",
+    "react-helmet": "^5.2.0",
+    "react-native": "^0.57.8",
+    "react-number-format": "^4.0.5",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-select": "^2.1.2",
+    "redux": "^4.0.1",
+    "redux-form": "^7.4.2",
+    "redux-form-website-template": "0.0.123",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy" : "yarn run build",
+    "deploy" : "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

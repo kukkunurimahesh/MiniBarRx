@@ -1,0 +1,466 @@
+/*Import Sky-Forms*/
+@import url(sky-forms.css);
+
+.sky-form .radio, 
+.sky-form .checkbox {
+  padding: 0 0 0 25px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 18px;
+}
+
+.sky-form .inline-group {
+  margin: 0 -30px -4px 20px;;
+}
+
+.sky-form .radio, .sky-form .checkbox {
+  color: #233e62;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.sky-form .inline-group .radio:last-child, .sky-form .inline-group .checkbox:last-child {
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+/*Sky-Forms
+------------------------------------*/
+/* defaults */
+.sky-form {
+  box-shadow:none;
+  font-family: 'Roboto', Helvetica, Tahoma, Arial, sans-serif; ;
+  color: #233e62;
+}
+
+.sky-form hr {
+  border-top: 1px solid #233e62;
+}
+.sky-form label {
+  margin-bottom:0px;
+  font-size: 17px !important;
+}
+
+.sky-form fieldset > section,
+.sky-form fieldset > .row {
+  padding:0px;
+  margin:40px 0px 0px 0px;
+}
+.sky-form fieldset > section:first-child,
+.sky-form fieldset > .row:first-child {
+  margin-top:0px;
+}
+.sky-form fieldset > section:last-child,
+.sky-form fieldset > .row:last-child {
+  margin-bottom:0px;
+}
+
+.sky-form fieldset > .row > section:first-child {
+  padding-left:0px;
+}
+
+.sky-form fieldset > .row > section:last-child {
+  padding-right:0px;
+}
+
+.sky-form > h6 {
+  margin:15px 0px 0px 0px ;
+}
+.sky-form > h6 + fieldset {
+  margin-top:15px;
+}
+
+.sky-form > fieldset + h6 {
+  margin-top:40px;
+}
+
+.sky-form .state-error + em {
+    margin-top: 8px;
+    padding: 0 1px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #e36565;
+}
+
+.sky-form fieldset > .row section {
+  margin-bottom:0px;
+}
+
+.sky-form fieldset + fieldset {
+  border-top:none;
+}
+
+section.subscriber-matrix strong.heading {
+  display:inline-block;
+  margin:10px 20px 0px 0px;
+  font-size:18px;
+  line-height:25px;
+}
+
+section.subscriber-matrix input {
+  width:300px !important;
+  margin-top:10px;
+  margin-bottom:10px;
+  }
+
+.sky-form header {
+  display:block;
+  font-size:25px;
+  line-height:32px;
+  background:transparent;
+  font-weight:400;
+  padding: 0 0 20px 0px;
+  margin:40px 0px 0px 0px;
+  font-family: 'Roboto', Helvetica, Tahoma, Arial, sans-serif;
+  border-bottom-color: #233e62;
+}
+
+.sky-form fieldset {
+  background: transparent;
+  padding: 0;
+  margin:40px 40px 0px 40px; 
+}
+
+.sky-form footer {
+  background:#ffffff;
+  padding:15px 30px;
+  margin-top:40px;
+	border-top: 1px solid rgb(187,187,187);
+  
+}
+
+.sky-form a {
+  color:inherit;
+}
+
+.sky-form a.btn {
+  color:#ffffff;
+}
+
+.sky-form .input input {
+  height:45px;
+  padding:8px 15px;
+}
+
+.sky-form .input input,
+.sky-form .select select,
+.sky-form .textarea textarea {
+  border-width:1px;
+  font-size:17px;
+	font-family: 'Roboto', Helvetica, Tahoma, Arial, sans-serif;
+  color:#233e62;
+}
+
+.sky-form .input input,
+.sky-form .select select,
+.sky-form .textarea textarea {
+}
+
+.sky-form .select select {
+  height:45px;
+  padding:8px 15px;
+}
+
+.sky-form .select-multiple select {
+  height:auto;
+}
+
+/* file inputs */
+.sky-form .input-file .button {
+  height:32px;
+  top:1px;
+  right:1px;
+}
+
+/* captcha inputs */
+.sky-form .input-captcha img {
+  position:absolute;
+  top:1px;
+  right:1px;
+  border-left:1px solid #e5e5e5;
+}
+
+/* normal state */
+.sky-form .input input,
+.sky-form .select select,
+.sky-form .textarea textarea,
+.sky-form .radio i,
+.sky-form .checkbox i,
+.sky-form .toggle i,
+.sky-form .icon-append,
+.sky-form .icon-prepend {
+  border-color:#233e62;
+}
+.sky-form .toggle i:before {
+  background-color:#999;  
+}
+
+.sky-form .button {
+  background: #233e62;
+}
+
+/* toggles */
+.sky-form .toggle {
+	font-weight:normal;
+}
+
+.sky-form .toggle i {
+  width:54px;
+  height:21px;
+  border-width:1px;
+}
+.sky-form .toggle i:after {
+  top:3px;
+}
+.sky-form .toggle i:before {
+  top:5px;
+  right:6px;
+}
+
+/*remove Bootstrap 'radio, checkbox' margin-top*/
+.radio, .checkbox {
+  margin-top:0;
+}
+
+/* radios and checkboxes */
+.sky-form .radio i,
+.sky-form .checkbox i {
+  width:17px;
+  height:17px;
+  border-width:1px;
+  margin-top: -5px;
+}
+
+.sky-form .checkbox input + i:after {
+  top:2px;
+  left:1px;
+  font:normal 14px FontAwesome;
+}
+
+/* checked state */
+.sky-form .radio input + i:after {
+  top:5px;
+  left:5px;
+  width: 7px;
+  height: 7px;
+  background-color:#233e62;  
+}
+.sky-form .checkbox input + i:after {
+  color:#233e62;
+}
+.sky-form .radio input:checked + i,
+.sky-form .checkbox input:checked + i,
+.sky-form .toggle input:checked + i {
+  border-color:#233e62;  
+}
+.sky-form .rating input:checked ~ label {
+  color:#233e62; 
+}
+
+/* selects */
+.sky-form .select i {
+  top: 28px;
+  width: 16px;
+  right: 15px;
+  height: 1px;
+  border: 0px solid red;
+}
+
+.sky-form .select i:after,
+.sky-form .select i:before {
+  right: 0;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+
+.sky-form .select i:before {
+  top:-10px;
+  border-bottom: 8px solid #233e62;
+}
+
+.sky-form .select i:after {
+ bottom: -10px;
+ border-top: 8px solid #404040;
+}
+
+.label-rounded .ui-slider-handle {
+  border-radius:50% !important;
+}
+
+/* icons */
+.sky-form .icon-append,
+.sky-form .icon-prepend {
+  top:1px;
+  height:32px;
+  font-size:17px;
+  line-height:33px;
+  background:inherit;
+}
+.sky-form .icon-append {
+  right:1px;
+  padding:0 3px;
+  min-width:34px;
+}
+
+.sky-form .icon-prepend {
+  left:6px;
+  padding-right:5px;
+}
+
+/* focus state */
+.sky-form .input input:focus,
+.sky-form .select select:focus,
+.sky-form .textarea textarea:focus {
+ 	border-color: #233e62;
+  box-shadow:0 0 2px #c9c9c9;	
+}
+
+.sky-form .radio input:focus + i,
+.sky-form .checkbox input:focus + i,
+.sky-form .toggle input:focus + i {
+  border-color:#233e62;
+  box-shadow:none;
+}
+
+/* hover state */
+.sky-form .input:hover input,
+.sky-form .select:hover select,
+.sky-form .textarea:hover textarea {
+	border-color: #233e62;
+}
+
+.sky-form .radio:hover i,
+.sky-form .checkbox:hover i,
+.sky-form .toggle:hover i,
+.sky-form .ui-slider-handle:hover {
+  border-color: #233e62;
+}
+.sky-form .rating input + label:hover,
+.sky-form .rating input + label:hover ~ label {
+  color: #233e62;
+}
+
+.sky-form .icon-append,
+.sky-form .icon-prepend {
+  color: #233e62;
+}
+
+.ie8 .sky-form .icon-append {
+	right: 5px !important;
+	padding-left: 0;
+}
+
+/**/
+/* disabled state */
+/**/
+.sky-form .input.state-disabled:hover input,
+.sky-form .select.state-disabled:hover select,
+.sky-form .textarea.state-disabled:hover textarea,
+.sky-form .radio.state-disabled:hover i,
+.sky-form .checkbox.state-disabled:hover i,
+.sky-form .toggle.state-disabled:hover i {
+  border-color: #233e62;
+}
+
+/* datepicker */
+.ui-datepicker-header {
+  padding:10px 0;
+  font-size:18px;
+}
+
+.ui-datepicker-inline {
+  border-width:1px;
+}
+
+.ui-datepicker-inline .ui-datepicker-header {
+  line-height:27px;
+}
+
+.ui-datepicker-prev, 
+.ui-datepicker-next {
+  font-size:21px;
+  line-height:47px;
+}
+
+.ui-datepicker-calendar a {
+  border:1px solid transparent;
+}
+
+.ui-datepicker-calendar .ui-state-active {
+  background:inherit;
+  border:1px solid #233e62;
+}
+.ui-datepicker-calendar a:hover {
+  background:inherit;  
+  border:1px solid #233e62;
+}
+
+/* bootstrap compatibility */
+.sky-form button *,
+.sky-form button *:after,
+.sky-form button *:before {
+  margin:0 auto;
+  padding:0 auto;
+}
+
+.btn.button-uploading:after {
+  top:6px;
+}
+.btn.btn-lg.button-uploading:after {
+  top:10px;
+}
+.btn.btn-sm.button-uploading:after {
+  top:3px;}
+.btn.btn-xs.button-uploading:after {
+  top:2px;
+}
+
+#subscribe > fieldset label {
+  margin-bottom:0px;
+}
+
+.label {
+  padding:0;
+}
+
+/* success state */
+.sky-form .state-success input,
+.sky-form .state-success select,
+.sky-form .state-success textarea,
+.sky-form .radio.state-success i,
+.sky-form .checkbox.state-success i,
+.sky-form .toggle.state-success i {
+	background: #e9ecef;
+}
+.sky-form .state-success select + i {
+	background: #e9ecef;
+	box-shadow: 0 0 0 12px #e9ecef;
+}
+.sky-form .toggle.state-success input:checked + i {
+	background: #e9ecef;
+}
+
+/*individual pages*/
+#emerg_med_card_form > header:nth-child(5) {margin-top: 10px;}
+
+@media (max-width:600px) {
+  .sky-form fieldset > .row > section {
+    padding:0px;
+    margin-top:40px;
+  }
+
+  .sky-form fieldset > .row > section:first-child {
+    margin-top:0px;
+  }
+
+  .sky-form fieldset > .row > section {
+    padding:0px;
+  }
+  
+  section.subscriber-matrix input {
+    width:100% !important;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+} 

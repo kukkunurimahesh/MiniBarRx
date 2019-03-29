@@ -1,0 +1,125 @@
+{
+	"data" : {
+		"practiceType" : { 
+			"0" : {"label": "Internal Medicine","value":"internal_medicine"},
+			"1" : {"label": "Pediatric","value":"pediatric"},
+			"2" : {"label": "OBGYN", "value":"obgyn"}
+		},
+		"preferredBrands" : {
+			"0" : {"label": "Sanofi","value":"sanofi"},
+			"1" : {"label": "GSK","value":"gsk"}
+		},
+		"allowed_vaccines_in_cartridge" : "30",
+		"vaccineProducts" : {
+			"internal_medicine" : {
+				
+					"1" : {"id":"1","vaccineName":"HZV (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "2" : {"id":"2","vaccineName":"HZV (Tenivac, generic)","type":"default","cartridge_type":"PFS"},
+			        "3" : {"id":"3","vaccineName":"IIV3 (-generic-)","type":"default","cartridge_type":"PFS"},
+			        "4" : {"id":"4","vaccineName":"IIV4 (Adacel, Boostrix)","type":"default","cartridge_type":"MDV"},
+			        "5" : {"id":"5","vaccineName":"PPSV23 (Kinrix, Quadracel)","type":"default","cartridge_type":"SDV"},
+			        "6" : {"id":"6","vaccineName":"MMR (Pediarix)","type":"default","cartridge_type":"SDV"},
+			        "7" : {"id":"7","vaccineName":"HPV9 (Pentacel)","type":"default","cartridge_type":"SDV"},
+			
+					"8" : {"id":"8","vaccineName":"HZV (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "9" : {"id":"9","vaccineName":"HZV (Tenivac, generic)","type":"default","cartridge_type":"SDV"},
+			        "10" : {"id":"10","vaccineName":"IIV3 (-generic-)","type":"default","cartridge_type":"SDV"},
+			        "11" : {"id":"11","vaccineName":"IIV4 (Adacel, Boostrix)","type":"default","cartridge_type":"MDV"},
+			        "12" : {"id":"12","vaccineName":"PPSV23 (Kinrix, Quadracel)","type":"default","cartridge_type":"SDV"},
+			        "13" : {"id":"13","vaccineName":"MMR (Pediarix)","type":"default","cartridge_type":"PFS"},
+			        "14" : {"id":"14","vaccineName":"HPV9 (Pentacel)","type":"default","cartridge_type":"PFS"},
+			        "15" : {"id":"15","vaccineName":"HPV9 (Pentacel)","type":"default","cartridge_type":"PFS"},
+				
+					"16" : {"id":"16","vaccineName":"HZV (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "17" : {"id":"17","vaccineName":"HZV (Tenivac, generic)","type":"default","cartridge_type":"SDV"},
+			        "18" : {"id":"18","vaccineName":"IIV3 (-generic-)","type":"default","cartridge_type":"SDV"},
+			        "19" : {"id":"19","vaccineName":"IIV4 (Adacel, Boostrix)","type":"default","cartridge_type":"SDV"},
+			        "20" : {"id":"20","vaccineName":"PPSV23 (Kinrix, Quadracel)","type":"default","cartridge_type":"SDV"},
+			        "21" : {"id":"21","vaccineName":"MMR (Pediarix)","type":"default","cartridge_type":"SDV"}
+			        
+				   
+			},
+			"pediatric" : {
+				"1" : {"id":"1","vaccineName":"HZV (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "2" : {"id":"2","vaccineName":"HZV (Tenivac, generic)","type":"default","cartridge_type":"PFS"},
+			        "3" : {"id":"3","vaccineName":"IIV3 (-generic-)","type":"default","cartridge_type":"PFS"},
+			        "4" : {"id":"4","vaccineName":"IIV4 (Adacel, Boostrix)","type":"default","cartridge_type":"MDV"},
+			        "5" : {"id":"5","vaccineName":"PPSV23 (Kinrix, Quadracel)","type":"default","cartridge_type":"SDV"},
+			        "6" : {"id":"6","vaccineName":"MMR (Pediarix)","type":"default","cartridge_type":"SDV"},
+			        "7" : {"id":"7","vaccineName":"HPV9 (Pentacel)","type":"default","cartridge_type":"SDV"},
+			
+					"8" : {"id":"8","vaccineName":"HZV (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "9" : {"id":"9","vaccineName":"HZV (Tenivac, generic)","type":"default","cartridge_type":"SDV"},
+			        "10" : {"id":"10","vaccineName":"IIV3 (-generic-)","type":"default","cartridge_type":"SDV"},
+			        "11" : {"id":"11","vaccineName":"IIV4 (Adacel, Boostrix)","type":"default","cartridge_type":"MDV"},
+			        "12" : {"id":"12","vaccineName":"PPSV23 (Kinrix, Quadracel)","type":"default","cartridge_type":"SDV"},
+			        "13" : {"id":"13","vaccineName":"MMR (Pediarix)","type":"default","cartridge_type":"PFS"},
+			        "14" : {"id":"14","vaccineName":"HPV9 (Pentacel)","type":"default","cartridge_type":"PFS"},
+			        "15" : {"id":"15","vaccineName":"HPV9 (Pentacel)","type":"default","cartridge_type":"PFS"},
+				
+					"16" : {"id":"16","vaccineName":"HZV (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "17" : {"id":"17","vaccineName":"HZV (Tenivac, generic)","type":"default","cartridge_type":"SDV"},
+			        "18" : {"id":"18","vaccineName":"IIV3 (-generic-)","type":"default","cartridge_type":"SDV"},
+			        "19" : {"id":"19","vaccineName":"IIV4 (Adacel, Boostrix)","type":"default","cartridge_type":"SDV"},
+			        "20" : {"id":"20","vaccineName":"PPSV23 (Kinrix, Quadracel)","type":"default","cartridge_type":"SDV"},
+			        "21" : {"id":"21","vaccineName":"MMR (Pediarix)","type":"default","cartridge_type":"SDV"}
+			        
+			},
+			"obgyn" : {				
+		       "1" : {"id":"1","vaccineName":"HZV (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "2" : {"id":"2","vaccineName":"HZV (Tenivac, generic)","type":"default","cartridge_type":"PFS"},
+			        "3" : {"id":"3","vaccineName":"IIV3 (-generic-)","type":"default","cartridge_type":"PFS"},
+			        "4" : {"id":"4","vaccineName":"IIV4 (Adacel, Boostrix)","type":"default","cartridge_type":"MDV"},
+			        "5" : {"id":"5","vaccineName":"PPSV23 (Kinrix, Quadracel)","type":"default","cartridge_type":"SDV"},
+			        "6" : {"id":"6","vaccineName":"MMR (Pediarix)","type":"default","cartridge_type":"SDV"},
+			        "7" : {"id":"7","vaccineName":"HPV9 (Pentacel)","type":"default","cartridge_type":"SDV"},
+			
+					"8" : {"id":"8","vaccineName":"HZV (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "9" : {"id":"9","vaccineName":"HZV (Tenivac, generic)","type":"default","cartridge_type":"SDV"},
+			        "10" : {"id":"10","vaccineName":"IIV3 (-generic-)","type":"default","cartridge_type":"SDV"},
+			        "11" : {"id":"11","vaccineName":"IIV4 (Adacel, Boostrix)","type":"default","cartridge_type":"MDV"},
+			        "12" : {"id":"12","vaccineName":"PPSV23 (Kinrix, Quadracel)","type":"default","cartridge_type":"SDV"},
+			        "13" : {"id":"13","vaccineName":"MMR (Pediarix)","type":"default","cartridge_type":"PFS"},
+			        "14" : {"id":"14","vaccineName":"HPV9 (Pentacel)","type":"default","cartridge_type":"PFS"},
+			        "15" : {"id":"15","vaccineName":"HPV9 (Pentacel)","type":"default","cartridge_type":"PFS"},
+				
+					"16" : {"id":"16","vaccineName":"HZV (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "17" : {"id":"17","vaccineName":"HZV (Tenivac, generic)","type":"default","cartridge_type":"SDV"},
+			        "18" : {"id":"18","vaccineName":"IIV3 (-generic-)","type":"default","cartridge_type":"SDV"},
+			        "19" : {"id":"19","vaccineName":"IIV4 (Adacel, Boostrix)","type":"default","cartridge_type":"SDV"},
+			        "20" : {"id":"20","vaccineName":"PPSV23 (Kinrix, Quadracel)","type":"default","cartridge_type":"SDV"},
+			        "21" : {"id":"21","vaccineName":"MMR (Pediarix)","type":"default","cartridge_type":"SDV"}
+			        
+			},
+			"default" : {
+				"0" : {	
+					"1" : {"id":"22","vaccineName":"IIV3 HIGH DOSE (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "2" : {"id":"23","vaccineName":"HZV (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "3" : {"id":"24","vaccineName":"HZV (Tenivac, generic)","type":"default","cartridge_type":"SDV"},			        
+			        "4" : {"id":"25","vaccineName":"IIV3 (-generic-)","type":"default","cartridge_type":"PFS"},
+			        "5" : {"id":"26","vaccineName":"IIV4 (Adacel, Boostrix)","type":"default","cartridge_type":"PFS"},
+			        "6" : {"id":"27","vaccineName":"PPSV23 (Kinrix, Quadracel)","type":"default","cartridge_type":"PFS"},
+			     	"7" : {"id":"28","vaccineName":"MMR (Pediarix)","type":"default","cartridge_type":"MDV"},
+			        "8" : {"id":"29","vaccineName":"HPV9 (Pentacel)","type":"default","cartridge_type":"SDV"}
+				
+			     },
+			     "1" : {   
+			        
+					"9" : {"id":"30","vaccineName":"Tdap (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "10" : {"id":"31","vaccineName":"PCV13 (-generic-)","type":"default","cartridge_type":"MDV"},
+			        "11" : {"id":"32","vaccineName":"PCV13 (-generic-)","type":"default","cartridge_type":"SDV"},
+			        "12" : {"id":"33","vaccineName":"PCV13 (Adacel, Boostrix)","type":"default","cartridge_type":"SDV"},
+			        "13" : {"id":"34","vaccineName":"IIV2 (Daptacel, Infanrix)","type":"default","cartridge_type":"SDV"},
+			       	"14" : {"id":"35","vaccineName":"IIV2 (-generic-, Infanrix)","type":"default","cartridge_type":"SDV"},
+			        "15" : {"id":"36","vaccineName":"IIV3 (Tenivac, generic)","type":"default","cartridge_type":"PFS"},
+			        "16" : {"id":"37","vaccineName":"IIV3 (-generic-)","type":"default","cartridge_type":"PFS"},
+			        "17" : {"id":"38","vaccineName":"HEP A ADULT (Adacel, Boostrix)","type":"default","cartridge_type":"MDV"},
+			        "18" : {"id":"39","vaccineName":"HEP A ADULT (Kinrix, Quadracel)","type":"default","cartridge_type":"MDV"},
+			        "19" : {"id":"40","vaccineName":"HCV (Pediarix)","type":"default","cartridge_type":"SDV"},
+			        "20" : {"id":"41","vaccineName":"HCV (Pediarix-2)","type":"default","cartridge_type":"SDV"}
+			        
+				}   	        
+			}
+		}
+	}
+}
